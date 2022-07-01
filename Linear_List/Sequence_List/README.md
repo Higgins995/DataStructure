@@ -24,4 +24,4 @@
 
 ### 测试用例及结果
 
-![image-20220701213455928](C:\Users\韦宇敬\AppData\Roaming\Typora\typora-user-images\image-20220701213455928.png) 
+![image-20220701213455928](https://cdn.jsdelivr.net/gh/Higgins995/The-Photos-of-Blog//DataStructure/SequenceList_01.png) 
