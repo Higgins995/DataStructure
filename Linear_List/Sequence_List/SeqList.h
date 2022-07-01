@@ -63,4 +63,31 @@ void print(SeqList slist);
 */
 void destoryList_Seq(SeqList slist);
 
+/********** 延伸拓展 **********/
+
+/*
+* 函数功能: 删除顺序表中第一个值为 x 的元素
+* 输入参数 slist : 顺序表
+* 输入参数 x : 要删除的值
+* 返回值: 成功删除返回1,否则返回0
+*/
+int delV_Seq(SeqList slist, int x);
+
+/*
+* 函数功能: 删除顺序表中所有值为 x 的元素
+* 输入参数 slist : 顺序表
+* 输入参数 x : 要删除的值
+* 返回值: 成功删除返回1,否则返回0
+*/
+int delA_Seq(SeqList slist, int x);
+
+/*
+* 函数功能: 删除顺序表中从下标 j 开始连续的 k 个元素
+* 输入参数 slist : 顺序表
+* 输入参数 j : 删除区间的起始下标
+* 输入参数 k : 删除元素的个数
+* 返回值: 无
+*/
+void delete_j_k(SeqList slist, int j, int k);
+
 #endif

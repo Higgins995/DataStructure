@@ -27,15 +27,32 @@ int main(int argc, char *argv[]) {
 			   
 		printf("当前顺序表的元素是: ");
 		print(seqlist);
+		
 		delIndex_Seq(seqlist, 3);
 		printf("删除下表为 3 的元素后的顺序表: ");
 		print(seqlist);
+		
 		insertPre_Seq(seqlist, 2, 99);
 		printf("在下标 2 位置之前插入 99 后的顺序表: ");
 		print(seqlist);
+		
 		printf("查找值为 99 的元素下标: ");
 		printf("%d\n", locate_Seq(seqlist, 99));
-		destoryList_Seq(seqlist);
+		
+		/********** 延伸拓展 **********/
+		printf("删除值为 1 的第一个元素后的顺序表: ");
+		delV_Seq(seqlist, 1);
+		print(seqlist);
+		
+		printf("删除值为 2 的所有元素后的顺序表: ");
+		delA_Seq(seqlist, 2);
+		print(seqlist);
+		
+		printf("删除从第 3 个元素开始的连续 3 个元素后的顺序表: ");
+		delete_j_k(seqlist, 2, 3);
+		print(seqlist);
+		
+		destoryList_Seq(seqlist);  // 释放内存
 	} else {
 		printf("空间分配失败!!!\n");
 	}
