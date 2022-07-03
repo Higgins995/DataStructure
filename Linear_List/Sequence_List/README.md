@@ -9,7 +9,7 @@
   - `main.c` :顺序表接口的具体实现文件.
   - `SeqList.c` :主函数，对顺序表接口进行测试，因此需要包含 *SeqList.h* 
 - 自动化编译文件:
-  - `Makefile` : 生成可执行文件 `main.exe` 
+  - `Makefile` : 生成可执行文件 *main.exe* 
 
 ### 延伸拓展
 
