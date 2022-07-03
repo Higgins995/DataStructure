@@ -11,14 +11,14 @@
   - `main.c` : 主函数，对链表接口进行测试，因此需要包含 *LinkList.h* .
   
 - 自动化编译文件:
-  - `Makefile` : 生成可执行文件 `main.exe` 
+  - `Makefile` : 生成可执行文件 *main.exe* 
 
 ### 延伸拓展
 
 1. `void insertPost_Link_value(PNode head, int finddata, int insertdata)` : 在链表 head 中值为 finddata 的元素的后面插入一个新的值为 insertdata 的结点.
-2. `void delValue_Link_All(LinkList head, int x)` : 删除单链表中所有值为 x 的元素.
-3. `void delValue_Link_j_k(LinkList head, int j, int k)` : 删除单链表中从第 j 个元素开始的连续 k 个元素.
-4. `DataType search_Mid(LinkList head)` : 以链表中的某个元素 x 对链表进行划分，将单链表以 x 为分割点进行划分，比 x 小的在 x 的前面，比 x 大的在 x 的后面.
+2. `void delValue_Link_All(PNode head, int x)` : 删除单链表中所有值为 x 的元素.
+3. `void delValue_Link_j_k(PNode head, int j, int k)` : 删除单链表中从第 j 个元素开始的连续 k 个元素.
+4. `DataType search_Mid(PNode head)` : 以链表中的某个元素 x 对链表进行划分，将单链表以 x 为分割点进行划分，比 x 小的在 x 的前面，比 x 大的在 x 的后面.
 
 
 
